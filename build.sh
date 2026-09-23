@@ -9,7 +9,8 @@ consoles='console=ttyS0,115200 console=tty0'
 iso_application="SystemRescue+ZFS"
 iso_version="$(<${version_file})"
 iso_name=$(echo "$iso_application" | tr '[:upper:]' '[:lower:]')
-iso_label=$(echo "${iso_application}_${iso_version}" | tr "[:lower:].+ -" "[:upper:]_")
+#iso_label=$(echo "${iso_application}_${iso_version}" | tr "[:lower:].+ -" "[:upper:]_")
+iso_label="SR12+ZFS244"
 iso_url="https://github.com/nchevsky/systemrescue-zfs"
 iso_publisher="Nick Chevsky <${iso_url}>"
 install_dir=sysresccd
