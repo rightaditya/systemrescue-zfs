@@ -61,7 +61,6 @@ fsarchiver
 galculator
 gawk
 ghex
-gnu-netcat
 gnupg
 gpart
 gparted
@@ -101,8 +100,8 @@ libldm
 libvncserver
 linux-firmware
 linux-firmware-bnx2x
-linux-firmware-qlogic
 linux-firmware-marvell
+linux-firmware-qlogic
 linux-lts
 linux-lts-headers
 lm_sensors
@@ -110,10 +109,11 @@ localepurge
 lshw
 lsof
 lsscsi
-lua
-lua-dkjson
-lua-http
-lua-yaml
+lua54
+lua54-cqueues
+lua54-dkjson
+lua54-http
+lua54-yaml
 lvm2
 lz4
 lzip
@@ -156,6 +156,7 @@ ntfs-3g-system-compression
 ntp
 nvme-cli
 nwipe
+openbsd-netcat
 openconnect
 openssh
 openssl
